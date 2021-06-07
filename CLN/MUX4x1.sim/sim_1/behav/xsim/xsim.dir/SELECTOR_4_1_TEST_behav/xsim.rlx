@@ -1,0 +1,12 @@
+
+{ 
+    crc :  5880840403223089596  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 70b4490a975c436db92df4ea3c554da7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SELECTOR_4_1_TEST_behav xil_defaultlib.SELECTOR_4_1_TEST" , 
+    buildDate : "Nov  6 2019" , 
+    buildTime : "21:57:16" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2019.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/SELECTOR_4_1_TEST_behav/xsimk.exe\"   \"xsim.dir/SELECTOR_4_1_TEST_behav/obj/xsim_0.win64.obj\" \"xsim.dir/SELECTOR_4_1_TEST_behav/obj/xsim_1.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2019.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
