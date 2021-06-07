@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1334898181402180228  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 4cd5be6f95d94e00ba0f79e76f524334 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SR_Latch_tb_behav xil_defaultlib.SR_Latch_tb" , 
+    buildDate : "Nov  6 2019" , 
+    buildTime : "21:57:16" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2019.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/SR_Latch_tb_behav/xsimk.exe\"   \"xsim.dir/SR_Latch_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/SR_Latch_tb_behav/obj/xsim_1.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2019.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

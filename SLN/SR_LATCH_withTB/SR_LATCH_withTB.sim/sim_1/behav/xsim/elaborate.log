@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 4cd5be6f95d94e00ba0f79e76f524334 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot SR_Latch_tb_behav xil_defaultlib.SR_Latch_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture data_flow of entity xil_defaultlib.SR_Latch [sr_latch_default]
+Compiling architecture sr_latch_tb of entity xil_defaultlib.sr_latch_tb
+Built simulation snapshot SR_Latch_tb_behav
