@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endle/Desktop/VHDL/CLN/ALU_retry.srcs/sources_1/new/ALU_retry.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endle/Desktop/VHDL/CLN/ALU_retry.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu2_tb'
