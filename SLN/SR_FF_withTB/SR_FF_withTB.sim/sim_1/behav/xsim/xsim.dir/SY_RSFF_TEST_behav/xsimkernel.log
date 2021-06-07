@@ -1,0 +1,7 @@
+Running: xsim.dir/SY_RSFF_TEST_behav/xsimk.exe -simmode gui -wdb SY_RSFF_TEST_behav.wdb -simrunnum 0 -socket 7700
+Design successfully loaded
+Design Loading Memory Usage: 6544 KB (Peak: 6544 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 7088 KB (Peak: 7088 KB)
+Simulation CPU Usage: 108 ms
