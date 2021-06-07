@@ -10,12 +10,12 @@ ARCHITECTURE behavior OF hex2ssd_test IS
     COMPONENT HEX2SSD2
     port(
         x : in STD_LOGIC_VECTOR(3 downto 0);
-        f : out STD_LOGIC_VECTOR(7 downto 0);
+        f : out STD_LOGIC_VECTOR(6 downto 0);
         an: out STD_LOGIC_VECTOR(3 downto 0) );
     END COMPONENT;
     
     signal x : std_logic_vector(3 downto 0);
-    signal f : std_logic_vector(7 downto 0);
+    signal f : std_logic_vector(6 downto 0);
     
 BEGIN
 -- Instantiate the Unit Under Test (UUT)
