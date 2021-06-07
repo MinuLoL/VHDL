@@ -2,3 +2,6 @@ Running: xsim.dir/bcd2ssd_test_behav/xsimk.exe -simmode gui -wdb bcd2ssd_test_be
 Design successfully loaded
 Design Loading Memory Usage: 6176 KB (Peak: 6176 KB)
 Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 6748 KB (Peak: 6748 KB)
+Simulation CPU Usage: 61 ms

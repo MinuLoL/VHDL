@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Hex2SSD_behavioral_when_withTB.srcs/sources_1/new/Hex2SSD_behavioral_when_withTB.vhd" \
+"../../../../Hex2SSD_behavioral_when_withTB.srcs/sim_1/new/hex2ssd_testben.vhd" \
+
+# Do not sort compile order
+nosort
