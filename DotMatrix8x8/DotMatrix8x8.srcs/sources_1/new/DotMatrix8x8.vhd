@@ -7,7 +7,7 @@ use ieee.numeric_std.all;
 USE ieee.std_logic_unsigned.ALL;
 
 entity dot_matrix is 
-        GENERIC (clk_divider: INTEGER := 6000);    --12MHz to 500Hz
+        GENERIC (clk_divider: INTEGER := 24000);    --12MHz to 500Hz  12000000/24000=500Hz
         port ( rst, clk :   in std_logic;
                  an :   out bit_vector(7 downto 0);
                  dot:   out bit_vector(7 downto 0)   );
