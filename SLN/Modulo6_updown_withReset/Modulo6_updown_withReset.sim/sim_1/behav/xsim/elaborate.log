@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto e673abf4ed924f239fedc304ed50a7a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_modulo6_Up_Down_behav xil_defaultlib.TB_modulo6_Up_Down -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture mixed of entity xil_defaultlib.UpDown_Counter_m6 [updown_counter_m6_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_modulo6_up_down
+Built simulation snapshot TB_modulo6_Up_Down_behav

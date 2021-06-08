@@ -1,0 +1,1 @@
+-wto "2bf24ddcae20412c9684ba1f56692ab1" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TB_m7_upcounter_behav" "xil_defaultlib.TB_m7_upcounter" -log "elaborate.log" 

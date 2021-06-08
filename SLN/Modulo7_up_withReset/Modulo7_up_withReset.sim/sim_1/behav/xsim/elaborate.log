@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 2bf24ddcae20412c9684ba1f56692ab1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_m7_upcounter_behav xil_defaultlib.TB_m7_upcounter -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture mixed of entity xil_defaultlib.Up_Counter_m7 [up_counter_m7_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_m7_upcounter
+Built simulation snapshot TB_m7_upcounter_behav

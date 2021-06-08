@@ -1,0 +1,12 @@
+
+{ 
+    crc :  2113974511073401990  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto e673abf4ed924f239fedc304ed50a7a6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_modulo6_Up_Down_behav xil_defaultlib.TB_modulo6_Up_Down" , 
+    buildDate : "Nov  6 2019" , 
+    buildTime : "21:57:16" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2019.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/TB_modulo6_Up_Down_behav/xsimk.exe\"   \"xsim.dir/TB_modulo6_Up_Down_behav/obj/xsim_0.win64.obj\" \"xsim.dir/TB_modulo6_Up_Down_behav/obj/xsim_1.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2019.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
