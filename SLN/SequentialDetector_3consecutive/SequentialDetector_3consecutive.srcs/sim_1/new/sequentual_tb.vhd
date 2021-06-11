@@ -38,9 +38,43 @@ end process;
 -- Stimulus process
 stim_proc: process
 begin
-rst <= '1', '0' after (10*clk_period+2ns) ;
-x <='0', '1' after 200 ns ;
+rst <= '1', '0' after (100ns) ;
+--x <='0', '1' after 200 ns ;
 -- insert stimulus here 
 wait;
+end process;
+
+x_process:process
+begin
+wait for 100ns; --wait rst
+
+x<='0';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='0';
+wait for 10ns;
+x<='0';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='1';
+wait for 10ns;
+x<='1';
+wait for 10ns;
 end process;
 END;

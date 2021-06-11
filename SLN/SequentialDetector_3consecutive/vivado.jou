@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Jun 11 20:51:05 2021
+# Process ID: 18612
+# Current directory: C:/Users/endle/Desktop/VHDL/SLN/SequentialDetector_3consecutive
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13356 C:\Users\endle\Desktop\VHDL\SLN\SequentialDetector_3consecutive\SequentialDetector_3consecutive.xpr
+# Log file: C:/Users/endle/Desktop/VHDL/SLN/SequentialDetector_3consecutive/vivado.log
+# Journal file: C:/Users/endle/Desktop/VHDL/SLN/SequentialDetector_3consecutive\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/endle/Desktop/VHDL/SLN/SequentialDetector_3consecutive/SequentialDetector_3consecutive.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_m7_upcounter.tcl
+close_sim
+launch_simulation
+source TB_m7_upcounter.tcl
+close_sim
+launch_simulation
+source TB_m7_upcounter.tcl
+close_sim
+launch_simulation
+source TB_m7_upcounter.tcl
+close_sim
+launch_simulation
+source TB_m7_upcounter.tcl
+close_sim
+launch_simulation
+source TB_m7_upcounter.tcl
