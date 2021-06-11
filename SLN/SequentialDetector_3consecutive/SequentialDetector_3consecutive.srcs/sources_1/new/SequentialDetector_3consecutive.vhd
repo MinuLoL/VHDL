@@ -16,7 +16,7 @@ begin
 d2<=(x and q2)or(x and q1 and q0);
 d1<=(x and not q1 and q0)or(x and q1 and not q0);
 d0<=x and not q2 and not q0;
-y<=x and q2;
+y<=x and q2 and not q1 and not q0;
 process 
 (clk, rst)
 Begin
