@@ -12,7 +12,7 @@ signal d2, d1, d0: std_logic;
 begin
 d2 <= (not x and q1 and q0) or (x and not q2 and not q1 and not q0);
 d1 <=  (not x and not q1 and q0)or(not x and q1 and not q0) or (x and q1 and q0)or(x and q2);
-d0 <= (not x and not q1 and not q0)or(not x and q1 and not q0) or (x and q1 and not q0)or (x and q2) ;
+d0 <= (not x and not q2 and not q0) or (x and q1 and not q0)or (x and q2) ;
 process (clk, rst)
 Begin
 if rst = '1' then 

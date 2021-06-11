@@ -1,43 +1,30 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 2021/06/11 17:54:31
--- Design Name: 
--- Module Name: SequentialDetector_3consecutive - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
+-------------------------------------------------------------
+-- Modulo
+--7 Up Counter
+-------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
-entity SequentialDetector_3consecutive is
---  Port ( );
-end SequentialDetector_3consecutive;
-
-architecture Behavioral of SequentialDetector_3consecutive is
-
+entity Up_Counter_m5 is 
+port (
+x,rst, clk : in std_logic;
+y:out std_logic;
+q2, q1, q0 : inout std_logic );
+end Up_Counter_m5;
+architecture mixed of Up_Counter_m5 is
+signal d2,d1,d0: std_logic;
 begin
-
-
-end Behavioral;
+d2<=(x and q2)or(x and q1 and q0);
+d1<=(x and not q1 and q0)or(x and q1 and not q0);
+d0<=x and not q2 and not q0;
+y<=x and q2;
+process 
+(clk, rst)
+Begin
+if rst = '1' then 
+q2 <= '0'; q1 <= '0'; q0 <= '0'; 
+elsif rising_edge
+(clk) then --JK ->> D signal
+     q2<=d2;q1<=d1;q0<=d0;
+end if;
+end process;
+End mixed; 
