@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Modular_5updown_counter.srcs/sources_1/new/Modular_5updown_counter.vhd" \
+"../../../../Modular_5updown_counter.srcs/sim_1/new/Modular5updown_tb.vhd" \
+
+# Do not sort compile order
+nosort
