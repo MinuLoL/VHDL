@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Moudlar5_up_JKFF.srcs/sim_1/new/Modular5_up_tb.vhd" \
+"../../../../Moudlar5_up_JKFF.srcs/sources_1/new/Moudlar5_up_JKFF.vhd" \
+
+# Do not sort compile order
+nosort

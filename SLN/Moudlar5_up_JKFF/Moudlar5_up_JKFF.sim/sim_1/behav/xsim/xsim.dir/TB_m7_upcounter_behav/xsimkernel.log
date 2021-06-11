@@ -1,0 +1,4 @@
+Running: xsim.dir/TB_m7_upcounter_behav/xsimk.exe -simmode gui -wdb TB_m7_upcounter_behav.wdb -simrunnum 0 -socket 10648
+Design successfully loaded
+Design Loading Memory Usage: 6212 KB (Peak: 6212 KB)
+Design Loading CPU Usage: 62 ms

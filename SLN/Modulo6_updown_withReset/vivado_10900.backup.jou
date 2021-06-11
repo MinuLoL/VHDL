@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jun  9 13:58:30 2021
+# Process ID: 10900
+# Current directory: C:/Users/endle/Desktop/VHDL/SLN/Modulo6_updown_withReset
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11776 C:\Users\endle\Desktop\VHDL\SLN\Modulo6_updown_withReset\Modulo6_updown_withReset.xpr
+# Log file: C:/Users/endle/Desktop/VHDL/SLN/Modulo6_updown_withReset/vivado.log
+# Journal file: C:/Users/endle/Desktop/VHDL/SLN/Modulo6_updown_withReset\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/endle/Desktop/VHDL/SLN/Modulo6_updown_withReset/Modulo6_updown_withReset.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_modulo6_Up_Down.tcl
+close_sim
+launch_simulation
+source TB_modulo6_Up_Down.tcl
+close_sim
+launch_simulation
+source TB_modulo6_Up_Down.tcl
+close_sim
+launch_simulation
+source TB_modulo6_Up_Down.tcl
+close_sim
+launch_simulation
+source TB_modulo6_Up_Down.tcl
+close_sim
+launch_simulation
+source TB_modulo6_Up_Down.tcl
+close_sim
+launch_simulation
+source TB_modulo6_Up_Down.tcl
+close_sim
+launch_simulation
+source TB_modulo6_Up_Down.tcl
+close_sim
+launch_simulation
+source TB_modulo6_Up_Down.tcl
+close_sim
