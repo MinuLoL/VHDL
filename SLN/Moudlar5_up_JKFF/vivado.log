@@ -136,3 +136,393 @@ source TB_modulo6_Up_Down.tcl
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_modulo6_Up_Down_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 922.996 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 922.996 ; gain = 0.000
+close_project
+open_project C:/Users/endle/Desktop/VHDL/SLN/SequentialDetector_3consecutive/SequentialDetector_3consecutive.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/endle/Desktop/VHDL/SLN/SequentialDetector_3consecutive/SequentialDetector_3consecutive.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_m7_upcounter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/endle/Desktop/VHDL/SLN/SequentialDetector_3consecutive/SequentialDetector_3consecutive.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_m7_upcounter_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/endle/Desktop/VHDL/SLN/SequentialDetector_3consecutive/SequentialDetector_3consecutive.sim/sim_1/behav/xsim'
+"xelab -wto 2b0a1a96f00849f0bdbaadaef3fc6015 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_m7_upcounter_behav xil_defaultlib.TB_m7_upcounter -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 2b0a1a96f00849f0bdbaadaef3fc6015 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_m7_upcounter_behav xil_defaultlib.TB_m7_upcounter -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/endle/Desktop/VHDL/SLN/SequentialDetector_3consecutive/SequentialDetector_3consecutive.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_m7_upcounter_behav -key {Behavioral:sim_1:Functional:TB_m7_upcounter} -tclbatch {TB_m7_upcounter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source TB_m7_upcounter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_m7_upcounter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 922.996 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 922.996 ; gain = 0.000
+close_project
+create_project project_6 C:/Users/endle/project_6 -part xc7k70tfbv676-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 922.996 ; gain = 0.000
+file mkdir C:/Users/endle/project_6/project_6.srcs/sources_1/new
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+close [ open C:/Users/endle/project_6/project_6.srcs/sources_1/new/pro1.vhd w ]
+add_files C:/Users/endle/project_6/project_6.srcs/sources_1/new/pro1.vhd
+update_compile_order -fileset sources_1
+file mkdir C:/Users/endle/project_6/project_6.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/endle/project_6/project_6.srcs/sim_1/new/pro_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/endle/project_6/project_6.srcs/sim_1/new/pro_tb.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'pro1' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj pro1_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endle/project_6/project_6.srcs/sources_1/new/pro1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'VHDL_MOORE_FSM_Sequence_Detector'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endle/project_6/project_6.srcs/sim_1/new/pro_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_VHDL_Moore_FSM_Sequence_Detector'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+"xelab -wto c4890b57d4fd49698c48cc00338bd824 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pro1_behav xil_defaultlib.pro1 -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c4890b57d4fd49698c48cc00338bd824 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot pro1_behav xil_defaultlib.pro1 -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.pro1 in library work located at xsim.dir/work.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 922.996 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_VHDL_Moore_FSM_Sequence_Detector' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_VHDL_Moore_FSM_Sequence_Detector_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endle/project_6/project_6.srcs/sim_1/new/pro_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_VHDL_Moore_FSM_Sequence_Detector'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+"xelab -wto c4890b57d4fd49698c48cc00338bd824 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_VHDL_Moore_FSM_Sequence_Detector_behav xil_defaultlib.tb_VHDL_Moore_FSM_Sequence_Detector -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c4890b57d4fd49698c48cc00338bd824 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_VHDL_Moore_FSM_Sequence_Detector_behav xil_defaultlib.tb_VHDL_Moore_FSM_Sequence_Detector -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.VHDL_MOORE_FSM_Sequence_Detector [vhdl_moore_fsm_sequence_detector...]
+Compiling architecture behavior of entity xil_defaultlib.tb_vhdl_moore_fsm_sequence_detec...
+Built simulation snapshot tb_VHDL_Moore_FSM_Sequence_Detector_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim/xsim.dir/tb_VHDL_Moore_FSM_Sequence_Detector_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim/xsim.dir/tb_VHDL_Moore_FSM_Sequence_Detector_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Jun 13 02:56:43 2021. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun 13 02:56:43 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 922.996 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_VHDL_Moore_FSM_Sequence_Detector_behav -key {Behavioral:sim_1:Functional:tb_VHDL_Moore_FSM_Sequence_Detector} -tclbatch {tb_VHDL_Moore_FSM_Sequence_Detector.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source tb_VHDL_Moore_FSM_Sequence_Detector.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_VHDL_Moore_FSM_Sequence_Detector_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:20 . Memory (MB): peak = 922.996 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 922.996 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_VHDL_Moore_FSM_Sequence_Detector' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_VHDL_Moore_FSM_Sequence_Detector_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endle/project_6/project_6.srcs/sim_1/new/pro_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_VHDL_Moore_FSM_Sequence_Detector'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+"xelab -wto c4890b57d4fd49698c48cc00338bd824 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_VHDL_Moore_FSM_Sequence_Detector_behav xil_defaultlib.tb_VHDL_Moore_FSM_Sequence_Detector -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c4890b57d4fd49698c48cc00338bd824 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_VHDL_Moore_FSM_Sequence_Detector_behav xil_defaultlib.tb_VHDL_Moore_FSM_Sequence_Detector -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.VHDL_MOORE_FSM_Sequence_Detector [vhdl_moore_fsm_sequence_detector...]
+Compiling architecture behavior of entity xil_defaultlib.tb_vhdl_moore_fsm_sequence_detec...
+Built simulation snapshot tb_VHDL_Moore_FSM_Sequence_Detector_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/endle/project_6/project_6.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_VHDL_Moore_FSM_Sequence_Detector_behav -key {Behavioral:sim_1:Functional:tb_VHDL_Moore_FSM_Sequence_Detector} -tclbatch {tb_VHDL_Moore_FSM_Sequence_Detector.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source tb_VHDL_Moore_FSM_Sequence_Detector.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_VHDL_Moore_FSM_Sequence_Detector_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 922.996 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_m7_upcounter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_m7_upcounter_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+"xelab -wto 0db1ff3eba1b48758a9f1349e1addfe5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_m7_upcounter_behav xil_defaultlib.TB_m7_upcounter -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 0db1ff3eba1b48758a9f1349e1addfe5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_m7_upcounter_behav xil_defaultlib.TB_m7_upcounter -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_m7_upcounter_behav -key {Behavioral:sim_1:Functional:TB_m7_upcounter} -tclbatch {TB_m7_upcounter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source TB_m7_upcounter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_m7_upcounter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 922.996 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_m7_upcounter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_m7_upcounter_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.srcs/sources_1/new/Moudlar5_up_JKFF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Up_Counter_m5'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+"xelab -wto 0db1ff3eba1b48758a9f1349e1addfe5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_m7_upcounter_behav xil_defaultlib.TB_m7_upcounter -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 0db1ff3eba1b48758a9f1349e1addfe5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_m7_upcounter_behav xil_defaultlib.TB_m7_upcounter -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture mixed of entity xil_defaultlib.Up_Counter_m5 [up_counter_m5_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_m7_upcounter
+Built simulation snapshot TB_m7_upcounter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_m7_upcounter_behav -key {Behavioral:sim_1:Functional:TB_m7_upcounter} -tclbatch {TB_m7_upcounter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source TB_m7_upcounter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_m7_upcounter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 922.996 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_m7_upcounter' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_m7_upcounter_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.srcs/sources_1/new/Moudlar5_up_JKFF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Up_Counter_m5'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+"xelab -wto 0db1ff3eba1b48758a9f1349e1addfe5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_m7_upcounter_behav xil_defaultlib.TB_m7_upcounter -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 0db1ff3eba1b48758a9f1349e1addfe5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_m7_upcounter_behav xil_defaultlib.TB_m7_upcounter -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture mixed of entity xil_defaultlib.Up_Counter_m5 [up_counter_m5_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_m7_upcounter
+Built simulation snapshot TB_m7_upcounter_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_m7_upcounter_behav -key {Behavioral:sim_1:Functional:TB_m7_upcounter} -tclbatch {TB_m7_upcounter.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source TB_m7_upcounter.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_m7_upcounter_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 922.996 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 13 03:48:46 2021...
