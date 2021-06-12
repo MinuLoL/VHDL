@@ -2,3 +2,6 @@ Running: xsim.dir/TB_modulo6_Up_Down_behav/xsimk.exe -simmode gui -wdb TB_modulo
 Design successfully loaded
 Design Loading Memory Usage: 6132 KB (Peak: 6132 KB)
 Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 6700 KB (Peak: 6700 KB)
+Simulation CPU Usage: 140 ms
