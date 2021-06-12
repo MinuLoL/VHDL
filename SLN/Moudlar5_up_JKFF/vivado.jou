@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Jun 13 01:24:17 2021
+# Process ID: 1936
+# Current directory: C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15916 C:\Users\endle\Desktop\VHDL\SLN\Moudlar5_up_JKFF\Moudlar5_up_JKFF.xpr
+# Log file: C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/vivado.log
+# Journal file: C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/endle/Desktop/VHDL/SLN/Moudlar5_up_JKFF/Moudlar5_up_JKFF.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_m7_upcounter.tcl
+close_sim
+close_project
+open_project C:/Users/endle/Desktop/VHDL/SLN/Modulo6_updown_withReset/Modulo6_updown_withReset.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_modulo6_Up_Down.tcl

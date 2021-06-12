@@ -4,10 +4,12 @@
 -------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+
 entity Up_Counter_m5 is port (
 rst, clk : in std_logic;
 q2,q1, q0 : inout std_logic );
 end Up_Counter_m5;
+
 architecture mixed of Up_Counter_m5 is
 signal j2,k2,j1,k1,j0,k0: std_logic;
 begin

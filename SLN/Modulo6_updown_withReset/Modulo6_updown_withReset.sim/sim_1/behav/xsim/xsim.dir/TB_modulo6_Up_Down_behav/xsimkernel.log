@@ -1,7 +1,4 @@
-Running: xsim.dir/TB_modulo6_Up_Down_behav/xsimk.exe -simmode gui -wdb TB_modulo6_Up_Down_behav.wdb -simrunnum 0 -socket 13859
+Running: xsim.dir/TB_modulo6_Up_Down_behav/xsimk.exe -simmode gui -wdb TB_modulo6_Up_Down_behav.wdb -simrunnum 0 -socket 6732
 Design successfully loaded
-Design Loading Memory Usage: 6212 KB (Peak: 6212 KB)
+Design Loading Memory Usage: 6132 KB (Peak: 6132 KB)
 Design Loading CPU Usage: 62 ms
-Simulation completed
-Simulation Memory Usage: 6792 KB (Peak: 6792 KB)
-Simulation CPU Usage: 78 ms
